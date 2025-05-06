@@ -3,7 +3,7 @@ const initDatabase = require('../utils/initDb');
 
 const router = express.Router();
 
-router.post('/', (req, res) => {
+router.get('/', (req, res) => {
   initDatabase();
   res.status(200).send('Database reset to default state.');
 });
