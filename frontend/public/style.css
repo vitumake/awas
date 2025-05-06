@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #444;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    background: #1976d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5em;
+  }
+  
+  button:hover {
+    background: #1565c0;
+  }
+  
+  a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #messages div {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 80px;
+  }
+  
+  #admin {
+    background: #fff3cd;
+    padding: 1em;
+    margin-top: 2em;
+    border: 1px solid #ffeeba;
+  }
+  

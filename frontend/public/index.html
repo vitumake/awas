@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Message Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Message Board</h1>
+
+  <div id="profile" style="display:none;">
+    Logged in as <span id="username"></span> |
+    <a href="profile.html">Profile</a> |
+    <a href="admin.html" id="admin-link" style="display: none;">Admin Panel</a> |
+    <a href="#" onclick="logout()">Logout</a>
+  </div>
+  
+
+  <div id="messages"></div>
+
+  <div id="post-box" style="display:none;">
+    <textarea id="new-message" placeholder="Write your message here..."></textarea>
+    <button onclick="postMessage()">Send</button>
+  </div>
+
+  <div id="admin" style="display:none;">
+    <h3>Admin Panel</h3>
+    <button onclick="loadAdmin()">Load All Users</button>
+    <pre id="admin-data"></pre>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

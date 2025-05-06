@@ -1,0 +1,24 @@
+{
+  "name": "insecure-app",
+  "version": "1.0.0",
+  "description": "Deliberately insecure web app for testing",
+  "main": "index.js",
+  "scripts": {
+    "serve": "concurrently \"npm run start:*\"",
+    "start:api": "nodemon --env-file .env ./backend/app.js",
+    "start:site": "nodemon --env-file .env ./frontend/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "insecure-app": "file:",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  }
+}
