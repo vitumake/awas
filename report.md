@@ -81,6 +81,6 @@ The project contains a misconfiguration vulnerability classified as Information 
 
 ## Demonstration
 
-You can watch a video demonstration of the attack here: [video](https://www.youtube.com/watch?v=example).
+You can watch a video demonstration of the attack here: [video](https://www.youtube.com/watch?v=X4FArSg4r-U).
 
 You can also find the source code for the project on GitHub: [GitHub](https://github.com/vitumake/awas/tree/main).
